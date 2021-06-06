@@ -1,4 +1,5 @@
 import Carousel from "./Carousel";
+import FeatureAndProduct from "./FeatureAndProduct";
 import FindPeopleAndLearn from "./FindPeopleAndLearn";
 import Header from "./Header";
 import Join from "./Join";
@@ -16,6 +17,7 @@ export default function Main() {
       <FindPeopleAndLearn />
       <Step />
       <Join />
+      <FeatureAndProduct />
     </main>
   );
 }
