@@ -303,8 +303,8 @@ export default function FindPeopleAndLearn() {
             />
             <path
               d="M9.2 310L19 208.32a9.25 9.25 0 019.18-7.59H60a9.24 9.24 0 019.17 7.59L79 310"
-              stroke-width=".79"
-              stroke-miterlimit="10"
+              strokeWidth=".79"
+              strokeMiterlimit="10"
               stroke="#0d2135"
               fill="none"
             />
@@ -345,8 +345,8 @@ export default function FindPeopleAndLearn() {
               d="M78.26 151.76c.6-23.91 2-47.63-6-65.8a41 41 0 01-21.77-8.58l-4.32 5.5c-4.64 6-5.54 18.65-7.31 26.2-3.18 10.84 4.35 12.85-1.62 33.74a126.12 126.12 0 00-3.52 15.3c9.18-2.12 44.54-6.12 44.54-6.36z"
             />
             <path
-              stroke-width=".98"
-              stroke-miterlimit="10"
+              strokeWidth=".98"
+              strokeMiterlimit="10"
               stroke="#0d2135"
               className="fill-none"
               d="M86.63 52.15l-1.45 5.6"
@@ -382,8 +382,8 @@ export default function FindPeopleAndLearn() {
             <circle cx="184.51" cy="27.75" r="4.14" fill="#fbebd3" />
             <path
               stroke="#94c9fd"
-              stroke-width="1.6"
-              stroke-miterlimit="10"
+              strokeWidth="1.6"
+              strokeMiterlimit="10"
               className="fill-none"
               d="M202.31 10.54l18.13 77.07-23.63 52.11"
             />
@@ -420,7 +420,7 @@ export default function FindPeopleAndLearn() {
           <select
             name="topic"
             id="topic"
-            className="form-select mt-6 p-4 w-full rounded border border-black border-opacity-90 font-system-ui"
+            className="form-select mt-6 p-4 w-full rounded border border-gray-200 font-system-ui"
           >
             <option value="" className="font-bold">
               Choose a topic to learn about
@@ -430,7 +430,7 @@ export default function FindPeopleAndLearn() {
                 key={index}
                 value={topic.name.toLowerCase().replace(/\s/g, "-")}
               >
-                <span>{topic.name}</span> <span>{topic.total}+ courses</span>
+                {topic.name} {topic.total}+ courses
               </option>
             ))}
           </select>
