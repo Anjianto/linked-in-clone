@@ -1,3 +1,4 @@
+import Carousel from "./Carousel";
 import Header from "./Header";
 import PostJob from "./PostJob";
 import SuggestedSearches from "./SuggestedSearches";
@@ -8,6 +9,7 @@ export default function Main() {
       <Header />
       <SuggestedSearches />
       <PostJob />
+      <Carousel />
     </main>
   );
 }
