@@ -1,7 +1,9 @@
 import Carousel from "./Carousel";
 import FindPeopleAndLearn from "./FindPeopleAndLearn";
 import Header from "./Header";
+import Join from "./Join";
 import PostJob from "./PostJob";
+import Step from "./Step";
 import SuggestedSearches from "./SuggestedSearches";
 
 export default function Main() {
@@ -12,6 +14,8 @@ export default function Main() {
       <PostJob />
       <Carousel />
       <FindPeopleAndLearn />
+      <Step />
+      <Join />
     </main>
   );
 }
