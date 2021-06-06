@@ -688,6 +688,7 @@ module.exports = {
     }),
     stroke: {
       current: "currentColor",
+      ...colors,
     },
     strokeWidth: {
       0: "0",
@@ -1015,5 +1016,8 @@ module.exports = {
     wordBreak: ["responsive"],
     zIndex: ["responsive", "focus-within", "focus"],
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/custom-forms"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
 };
