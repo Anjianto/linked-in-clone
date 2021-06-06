@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.2.0",
+    "@heroicons/react": "^1.0.1",
     "aos": "^2.3.4",
     "firebase": "^8.6.5",
     "next": "10.2.3",
