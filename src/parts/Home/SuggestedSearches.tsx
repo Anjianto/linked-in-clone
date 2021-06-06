@@ -45,7 +45,10 @@ export default function SuggestedSearches() {
         {suggestedSearches.map(
           (suggest, index) =>
             index < more && (
-              <div className="mr-2 mb-4 cursor-pointer font-system-ui text-xl px-5 py-2 rounded-full text-gray-600 bg-gray-200 hover:underline hover:bg-gray-300 font-bold w-auto">
+              <div
+                key={index}
+                className="mr-2 mb-4 cursor-pointer font-system-ui text-xl px-5 py-2 rounded-full text-gray-600 bg-gray-200 hover:underline hover:bg-gray-300 font-bold w-auto"
+              >
                 {suggest}
               </div>
             )
